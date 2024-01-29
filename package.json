@@ -5,7 +5,7 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "build": "npm install typescript && npx tsc && ls -l ./dist && ls -l ./dist/db",
+    "build": "npm install typescript && npx tsc",
     "start": "node --es-module-specifier-resolution=node ./dist/index.js",
     "dev": "nodemon index.ts"
   },
