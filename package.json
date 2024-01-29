@@ -20,6 +20,9 @@
   ],
   "author": "Michle99",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.17.0 < 19.0.0"
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
